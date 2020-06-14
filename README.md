@@ -4,11 +4,10 @@
 
 A collection of bite-sized post about tech or tools I learnt about in recent time. Content might won't be in formal language, but will try to keep it as structured as possible.
 
-> TIL count 5
+> TIL count 4
 ---
 ### Categories
 * [OS](#OS)
-* [gifs](#gifs)
 * [scalability](#scalability)
 * [unix](#unix)
 * [vim](#vim)
@@ -17,8 +16,6 @@ A collection of bite-sized post about tech or tools I learnt about in recent tim
 
 ### Os
 - [Clocks.md](OS/clocks.md)
-### Gifs
-- [Abbreviation.gif](gifs/abbreviation.gif)
 ### Scalability
 - [12factor.md](scalability/12factor.md)
 ### Unix
