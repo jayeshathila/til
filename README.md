@@ -19,7 +19,7 @@ A collection of bite-sized post about tech or tools I learnt about in recent tim
 ### Scalability
 - [12factor.md](scalability/12factor.md)
 ### Unix
-- [CatWithLineNumbers.md](unix/cat_with_line_numbers.md)
+- [Cat With Line Numbers.md](unix/cat_with_line_numbers.md)
 ### Vim
 - [Abbreviations.md](vim/abbreviations.md)
 
