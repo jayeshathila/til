@@ -26,7 +26,7 @@ def encode_content(str_content: str) -> str:
 
 
 def snake_to_camel(word):
-    return ''.join(x.capitalize() or '_' for x in word.split('_'))
+    return ' '.join(x.capitalize() or '_' for x in word.split('_'))
 
 
 def create_categories(blob_paths: List) -> List:
@@ -83,11 +83,10 @@ with open('_resources/til.md', 'r') as file:
     result = ""
     for cat, blobs in cat_vs_blob.items():
         cat = snake_to_camel(cat)
-        content = "\n".join(blobs)
+        content = "\n".join([b.replace(".md", "") for b in blobs])
         result += f"### {cat}\n{content}\n"
 
     data = data.replace("<#content>", result)
-
 
 resp = requests.put(
     f"https://api.github.com/repos/{username}/{repo}/contents/{readme_json['path']}",
