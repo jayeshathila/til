@@ -8,4 +8,4 @@ E.g: `sout` => `System.out.println()`. This is default configuration in Intellij
 - Can be used as auto-correct.
   E.g: `teh` => `the`
 
-![](../gifs/abbreviation.gif)
+![](../_resources/_gifs/abbreviation.gif)
