@@ -15,13 +15,13 @@ A collection of bite-sized post about tech or tools I learnt about in recent tim
 ---
 
 ### Os
-- [Clocks.md](OS/clocks.md)
+- [Clocks](OS/clocks)
 ### Scalability
-- [12factor.md](scalability/12factor.md)
+- [12factor](scalability/12factor)
 ### Unix
-- [Cat With Line Numbers.md](unix/cat_with_line_numbers.md)
+- [Cat With Line Numbers](unix/cat_with_line_numbers)
 ### Vim
-- [Abbreviations.md](vim/abbreviations.md)
+- [Abbreviations](vim/abbreviations)
 
 
 ## Stats
