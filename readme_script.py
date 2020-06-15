@@ -38,7 +38,7 @@ def categories_vs_blob(blob_paths: List) -> Dict:
     for bp in blob_paths:
         split = bp.split("/")
         cat = split[0]
-        cat_vs_blob_list[snake_to_camel(cat)].append(f"- [{snake_to_camel(split[-1])}]({bp})")
+        cat_vs_blob_list[snake_to_camel(cat)].append(f"- [{snake_to_camel(split[-1]).replace('.md', '')}]({bp})")
 
     return cat_vs_blob_list
 
@@ -83,7 +83,7 @@ with open('_resources/til.md', 'r') as file:
     result = ""
     for cat, blobs in cat_vs_blob.items():
         cat = snake_to_camel(cat)
-        content = "\n".join([b.replace(".md", "") for b in blobs])
+        content = "\n".join(blobs)
         result += f"### {cat}\n{content}\n"
 
     data = data.replace("<#content>", result)
